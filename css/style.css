@@ -42,10 +42,9 @@
     width: 375px;
     height: 50px;
     text-align: left;
-    margin-top: 20%;
+    margin-top: 5%;
     margin-left: 145px;
     font-weight: bold;
-    
 }
 .RightSide button{
     border-radius: 20px;
@@ -62,6 +61,95 @@
     color: #1E90FF;
     background-color: ghostwhite;
     
+}
+#Login:hover{
+    border: 2px solid transparent;  /** border width/solid/transparent **/
+    border-radius: 20px;
+    background-image: linear-gradient(ghostwhite,ghostwhite),radial-gradient(circle at top left,#2ac1f1, #f05423);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    transition: all ease 0.3s;
+}
+#Signup:hover{
+    border: 2px solid transparent;  /** border width/solid/transparent **/
+    border-radius: 20px;
+    background-image: linear-gradient(#1E90FF,#1E90FF),radial-gradient(circle at top left,#b92af1, #f05423);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    transition: all ease 0.3s;
+}
+.upperRightContent{
+    width: 500px;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: 15px;
+    box-sizing: border-box;
 
 }
+.loginForm{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex; /*eto pala nagpapa dala sa side */
+}
+.loginForm-container{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color:#adabab;
+    font-size: 13px;
+}
+.under-form a{
+    text-align: center;
+    font-size: 11px; 
+    color: #1E90FF; 
+    width: 20px; 
+    height: 15px;
+    margin-left: 212px;
+}
+
+#upperLoginBtn{
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: #1E90FF;
+    background-color: ghostwhite;
+}
+#upperLoginBtn:hover{
+    border: 2px solid transparent; 
+    border-radius: 20px;
+    background-image: linear-gradient(ghostwhite,ghostwhite),radial-gradient(circle at top left,#2ac1f1, #f05423);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    transition: all ease 0.2s;
+}
+.passLogin{
+    width: 200px;
+    height: 100%;
+    margin-left: 10px;
+    padding: 2px;
+    border: 1px solid #a8b6bb;
+    border-radius: 5px;
+
+}
+.userLogin{
+    width: 200px;
+    height: 100%;
+    padding: 2px;
+    border: 1px solid #a8b6bb;
+    border-radius: 5px;
+}
+#usrname, #pwd{
+    font-size: 17px;
+    width: 100%;
+    background-color: #daeef5;
+    border-color: transparent;
+    
+}
+
+
 

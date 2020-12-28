@@ -65,7 +65,7 @@
 #Login:hover{
     border: 2px solid transparent;  /** border width/solid/transparent **/
     border-radius: 20px;
-    background-image: linear-gradient(ghostwhite,ghostwhite),radial-gradient(circle at top left,#2ac1f1, #f05423);
+    background-image: linear-gradient(rgb(235, 235, 241),ghostwhite),radial-gradient(circle at top left,#2ac1f1, #f05423);
     background-origin: border-box;
     background-clip: content-box,border-box;
     transition: all ease 0.3s;
@@ -122,7 +122,7 @@
 #upperLoginBtn:hover{
     border: 2px solid transparent; 
     border-radius: 20px;
-    background-image: linear-gradient(ghostwhite,ghostwhite),radial-gradient(circle at top left,#2ac1f1, #f05423);
+    background-image: linear-gradient(rgb(241, 241, 247),rgb(240, 240, 247)),radial-gradient(circle at top left,#2ac1f1, #f05423);
     background-origin: border-box;
     background-clip: content-box,border-box;
     transition: all ease 0.2s;

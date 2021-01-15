@@ -1,32 +1,35 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" onclick="jump()" onkeyup="jump()" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/rand-quote-gen-style.css">
-    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="css/simple-game-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Simple Game Activity</title>
+    <link rel="shortcut icon" href=""/> <!--INSERT ICON-->
 </head>
 <body>
-    <div class="body-container">
-        <div class="quote-container">
-            <button onclick="generate()" class="button" id="btn">
-                <marquee>
-                    Click Me ,/,
-                </marquee>
-            </button>
-
-            <h2 class="quote-content" id="quote">
-                <q>
-                    The journey of a thousand miles begins with one step.
-                </q>
-            </h2>
-            <p class="content-author" id="author-here">
-               ~ Lao Tzu
-            </p>
+    
+    <div id="the-bg">
+        <div id="the-game" >
+            <div id="the-character">
+                <img src="images/ship.svg" alt="ship img" style="height: 80px; width: 80px; margin-bottom: 2000px;">
+            </div>
+            <div id="the-block">
+                <img src="images/object.svg" alt="object img" style="height: 40px; width: 40px; margin-bottom: 2000px;">
+            </div>
+            
         </div>
     </div>
-    <script src="js/random-quote-generator.js">
-        
+
+
+
+    <!--SCRIPT-SECTION-STAY-AWAY-->
+    <script src="js/simple-game-js.js"> 
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
 </body>
 </html>

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#the-bg{
+    width: 100%;
+    height: 98vh;
+    background:  linear-gradient(to bottom, #f4f7ff,  rgba(28, 201, 224, 0.74));
+    
+}
+#the-game{
+    width: 1000px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+#the-character{
+    width: 70px;
+    height: 50px;
+    /* background-color: red; */
+    position: relative;
+    top: 150px;
+
+}
+.the-animation{
+    animation: jump 1s;
+}
+#the-block{
+    width: 20px;
+    height: 20px;
+    /* background-color: blue; */
+    position: relative;
+    top: 130px;
+    left: 980px;
+    animation: block 3s infinite;
+}
+@keyframes jump{
+    0%{top:150px;}
+    30%{top:60px;}
+    70%{top:60px;}
+    100%{top:150px;}
+    
+}
+@keyframes block{
+    0%{left:980px;}
+    100%{left:-90px;}
+}
